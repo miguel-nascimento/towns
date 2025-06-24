@@ -33,7 +33,7 @@ All examples require these basic environment variables:
 
 - `APP_PRIVATE_DATA_BASE64`: Your Towns app private data
 - `JWT_SECRET`: JWT secret for authentication  
-- `RIVER_ENV`: Environment (development/production)
+- `RIVER_ENV`: Environment (local_multi/alpha/omega)
 - `PORT`: Port to run the bot on
 
 Some examples may require additional variables (like OpenAI API keys).
