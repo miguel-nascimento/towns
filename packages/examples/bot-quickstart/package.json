@@ -1,0 +1,21 @@
+{
+    "name": "@towns-protocol/bot-quickstart",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "main": "src/bot.ts",
+    "scripts": {
+        "dev": "tsx src/bot.ts",
+        "build": "tsc",
+        "start": "node dist/bot.js"
+    },
+    "dependencies": {
+        "@towns-protocol/sdk": "workspace:^",
+        "ethers": "^5.7.2"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.8",
+        "tsx": "^4.19.2",
+        "typescript": "^5.8.2"
+    }
+}
